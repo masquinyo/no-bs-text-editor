@@ -1,0 +1,21 @@
+.editor{
+  border: gray solid 2px;
+  height: 200px;
+  width: 400px;
+  text-align: left;
+  padding: 5px;
+  // .editor-cursors {
+  //   .editor-cursor {
+  //     border-left: solid blue 1px;
+  //     height: 18px;
+  //     position: relative;
+  //   }
+  // }
+}
+.editor:focus {
+  border: blue;
+}
+
+.editor:focus div.editor-cursors {
+  visibility: visible;
+}
